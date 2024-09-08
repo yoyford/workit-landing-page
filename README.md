@@ -24,12 +24,12 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 
 ### Screenshot
 
-![](/assets/images/ss.png)
+![](/starter-code/assets/images/ss.png)
 
 
 ### Links
 
-- Solution URL: [click here](https://github.com/yoyford/workit-landing-page)
+- Solution URL: [click here](https://github.com/yoyford/card-cover)
 - Live Site URL: [click here](https://github.com/yoyford/workit-landing-page/blob/main/starter-code/index.html)
 
 ## My process
@@ -39,7 +39,7 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
+- CSS Grid
 
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**

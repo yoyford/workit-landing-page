@@ -146,8 +146,8 @@
 }
 .service-number{
     border: 1px solid #584D62;
-    border-radius: 99px;
-    padding: 15px;
+    border-radius: 100%;
+    padding: 30px;
     font-family: var(--fraunces);
     font-size: 24px;
     color: #584D62;
