@@ -285,6 +285,9 @@
         height: auto;
         left: 15%;
     }
+    .service-number{
+        padding: 20px;
+    }
     .hero-title{
         font-size: 60px;
         height: auto;
@@ -586,5 +589,8 @@
     }
     .pattern-me{
         display: none;
+    }
+    .service-number{
+        padding: 15px;
     }
 }     
