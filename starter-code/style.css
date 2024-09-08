@@ -199,6 +199,8 @@
     border: none;
     text-align: center;
     font-weight: 700;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 .founder_info p{
     font-size: 18px;
@@ -232,16 +234,15 @@
     gap: 28px;
     display: flex;
 }
-
-
-
+.founder_btn:hover{
+    background: var(--white);
+    color: var(--purple);
+}
 @media screen and (max-width: 1104px) {
     .founder_info{
         margin-left: 50px;
         margin-top: 200px;
     }
-    
-    
     
 }
 @media screen and (max-width: 1047px) {
@@ -345,7 +346,7 @@
         top: 275%;
     }
 }  
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 656px) {
     .founder_info{
         margin: 250px 0px 0px 0px;
     }
@@ -355,6 +356,160 @@
 }
 
 
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        margin: 0px 44px;
+        padding: 32px  0px 0px 0px;
+    }
+    .hero-img{
+        top: 60%;
+        width: 80%;
+        height: auto;
+        left: 15%;
+    }
+    .hero-title{
+        font-size: 60px;
+        height: auto;
+        width: 70%;
+    }
+    .services-container-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px 44px;
+    }
+    .services-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+    }
+    .service-info{
+        display: flex;
+        gap: 28px;
+        align-items: flex-start;
+        text-align: start;
+        padding: 32px;
+    }
+    .service-info P{
+        font-size: 16px;
+    }
+    .service-info h1{
+        font-size: 28;
+    }
+    .service-number{
+        font-size: 20px;
+    }
+    .founder_pic{
+        width: 280px;
+    }
+    .about_me_container{
+        margin: 44px;
+    }
+    .founder_info h1{
+        font-size: 48px;
+    }
+    .founder_info p{
+        font-size: 16px;
+    }
+    .workit-footer{
+        padding: 80px 0px;
+    }
+    .pattern-me{
+        position: absolute;
+        right: 15%;
+        top: 275%;
+    }
+}  
+@media screen and (max-width: 768px) {
+    .founder_btn{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .founder_info{
+        margin: 180px auto;
+    }
+    .founder_btn{
+        width: 100%;
+    }
+    .navbar{
+        margin: 0px 22px;
+    }
+    .hero-title{
+        width: 85%;
+        font-size: 40px;
+    }
+    .hero-img{
+        top: 40%;
+    }
+    .pattern-1 , .pattern-2 {
+        display: none;
+    }
+    .container{
+        height: 481px;
+        margin-bottom: 5.0625rem;
+    }
+    .custom-shape-divider-top-1725674615{
+        top: 44%;
+    }
+    .services-container-card{
+        margin: 0px 22px;
+    }
+    .services-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+    }
+    .service-title{
+        font-size: 24px;
+    }
+    .service-info p{
+        text-align: center;
+    }
+    .service-info p{
+        font-size: 16px;
+    }
+    .service-info{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+    .service-number{
+        font-size: 20px;
+    }
+    .workit-services{
+        padding-top: 0px;
+    }
+    .about_me_container{
+        margin: 0px 22px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .founder_info{
+        margin: 250px 0px 0px 0px;
+        padding: 32px;
+    }
+    .founder_info p{
+        font-size: 16px;
+    }
+    .pattern-me{
+        display: none;
+    }
+}     
 
 @media screen and (max-width: 375px) {
     .founder_info{
