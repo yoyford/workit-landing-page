@@ -30,7 +30,7 @@ Thanks for purchasing this premium Frontend Mentor coding challenge.
 ### Links
 
 - Solution URL: [click here](https://github.com/yoyford/card-cover)
-- Live Site URL: [click here](https://yoyford.github.io/card-cover/)
+- Live Site URL: [click here](https://github.com/yoyford/workit-landing-page/blob/main/starter-code/index.html)
 
 ## My process
 
